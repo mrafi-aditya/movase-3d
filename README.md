@@ -4,6 +4,12 @@ A browser-based graphics coursework project using Babylon.js. It loads a glTF sc
 
 [Open web demo](https://movase-one.vercel.app)
 
+## Project background
+
+I built this interactive 3D scene for a university computer graphics course.
+
+**Previous repository name:** `Web-Based-Simple-Interactive`.
+
 ## Implemented features
 
 - glTF model loading with its geometry buffer and texture.
@@ -19,8 +25,8 @@ A browser-based graphics coursework project using Babylon.js. It loads a glTF sc
 Serve the repository over HTTP so the browser can fetch model assets:
 
 ```sh
-git clone https://github.com/mrafi-aditya/Web-Based-Simple-Interactive.git
-cd Web-Based-Simple-Interactive
+git clone https://github.com/mrafi-aditya/movase-3d.git
+cd movase-3d
 python -m http.server 8000
 ```
 
